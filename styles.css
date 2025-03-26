@@ -1,0 +1,46 @@
+/* Estilo básico para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente legible */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: black; /* Color de texto negro */
+    padding: 20px; /* Espaciado alrededor de la página */
+}
+
+/* Estilo de los enlaces */
+a {
+    color: blue; /* Color de texto azul */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Cambiar el color del enlace cuando el ratón pasa sobre él */
+a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
+
+/* Estilo de los encabezados */
+h1 {
+    color: darkblue; /* Color azul oscuro */
+    font-size: 24px; /* Tamaño de fuente grande */
+}
+
+h2 {
+    color: darkgreen; /* Color verde para h2 */
+    font-size: 20px; /* Tamaño de fuente mediano */
+}
+
+/* Estilo de los párrafos */
+p {
+    font-size: 16px; /* Tamaño de fuente de los párrafos */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/* Estilo de las listas */
+ul {
+    list-style-type: square; /* Pone los puntos de las listas como cuadros */
+}
+
+/* Estilo de las imágenes */
+img {
+    width: 100%; /* La imagen ocupa todo el ancho disponible */
+    height: auto; /* La altura se ajusta automáticamente */
+}
